@@ -29,3 +29,80 @@
 	list-style-type: none;
 }
 
+.jumbotron{
+	height:700px;
+	text-transform: uppercase;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png);
+	background-size: cover;
+	border: solid black;
+}
+
+.jumbotron h1{
+	margin-top: 200px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.jumbotron h2{
+	text-align: center;
+	background-color: #000000;
+	border: solid black;
+	color:#ffffff;
+	margin-top: 50px;
+	margin-left: 350px;
+	margin-right: 350px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.jumbotron a{
+	text-decoration:none;
+}
+
+.lowthird .container{
+	display:inline-block;
+	width: 300px;
+	height:200px;
+	text-align:center;
+}
+
+.lowthird img{
+	width:25px;
+	height:25px;
+	padding-top:10px;
+}
+
+.lowthird h2{
+	text-transform: uppercase;
+}
+
+.lowthird p{
+	font-size: 15px;
+}
+
+.lowthird a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color:black;
+	font-size: 11px;
+	border:solid black;
+	border-radius: 2px;
+	border-width: 1px;
+	padding: 5px 30px;
+}
+
+.footer{
+	background-color:black;
+	height:50px
+}
+
+.footer p{
+	color:white;
+	margin-top: 3px;
+	font-size:12px;
+}
+
+
+
+
+
