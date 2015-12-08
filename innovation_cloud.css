@@ -1,0 +1,117 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+
+a{
+	background-color: black;
+	color:white;
+	text-decoration: none;
+	padding:;
+}
+
+a:hover{
+	background-color:blue;
+}
+
+.container{
+	position:relative;
+}
+
+.header{
+	background-image: url('');
+	background-position: cover;
+	background-repeat: no-repeat;
+}
+
+.header h1{
+	font-family:;
+	font-size:;
+	text-align:center;
+	color:white;
+	padding-top:;
+	padding-bottom:;
+}
+
+.header p{
+	font-family:;
+	font-size:;
+	letter-spacing:;
+	padding-top:;
+	padding-bottom:;
+}
+
+.navbar{
+	background-color: black;
+}
+
+.navbar ul{
+	display:inline-block;
+	padding:;
+	margin-left:;
+}
+
+.midarea{
+	background-color: white;
+}
+
+.midarea img{
+	height:;
+	width:;
+	float:left;
+	margin-left: ;
+	padding:;
+}
+
+.midarea h2{
+	font-family:;
+	font-size:;
+	color:black;
+	padding:;
+	float:left;
+}
+
+.midarea p{
+	font-family:;
+	font-size:;
+	color:black;
+	padding:;
+	float:left;
+}
+
+.lowsection{
+	background-image: url('');
+	background-position: cover;
+	background-repeat: no-repeat;
+}
+
+.lowsection h2,p{
+	text-align: right;
+	margin-right: ;
+}
+
+.lowsection h2{
+	font-family:;
+	font-size:;
+	color:black;
+	padding:;
+}
+
+.lowsection p{
+	font-family:;
+	font-size:;
+	color:black;
+	padding:;
+}
+
+.footer{
+	background-color: black;
+}
+
+.footer p{
+	font-family:;
+	font-size:;
+	color:white;
+	padding:;
+	margin-left: ;
+}
