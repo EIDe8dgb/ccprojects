@@ -1,13 +1,15 @@
 html,body{
 	margin:0;
 	padding:0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 }
 
 a{
 	background-color: black;
 	color:white;
 	text-decoration: none;
-	padding:;
+	padding:10px 30px;
 }
 
 a:hover{
@@ -18,90 +20,114 @@ a:hover{
 	position:relative;
 }
 
+.header .container{
+	margin-left: 20%;
+	margin-right:20%;
+}
+
 .header{
-	background-image: url('');
-	background-position: cover;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg);
+	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
+	height:800px;
 }
 
 .header h1{
-	font-family:;
-	font-size:;
-	text-align:center;
+	font-size:120px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
 	color:white;
-	padding-top:;
-	padding-bottom:;
+	padding-top:100px;
+	padding-bottom:20px;
 }
 
 .header p{
-	font-family:;
-	font-size:;
-	letter-spacing:;
-	padding-top:;
-	padding-bottom:;
+	font-size:18px;
+	font-weight:400;
+	text-align: center;
+	color:white;
+	letter-spacing:5px;
+	text-transform: uppercase;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+
+.header a{
+	text-align: center;
 }
 
 .navbar{
 	background-color: black;
+	height:70px;
+}
+
+.navbar a{
+	display:inline-block;
 }
 
 .navbar ul{
-	display:inline-block;
-	padding:;
-	margin-left:;
+	padding:20px 10px;
+	margin-left:250px;
+	list-style: none;
 }
 
 .midarea{
 	background-color: white;
+	height:300px;
 }
 
 .midarea img{
-	height:;
-	width:;
+	height:200px;
+	width:200px;
 	float:left;
-	margin-left: ;
-	padding:;
+	margin-left:250px ;
+	padding:30px 30px;
 }
 
 .midarea h2{
-	font-family:;
-	font-size:;
+	font-size:30px;
+	font-weight: 500;
 	color:black;
-	padding:;
+	padding:10px 10px;
 	float:left;
 }
 
 .midarea p{
-	font-family:;
-	font-size:;
+	font-size:10px;
 	color:black;
-	padding:;
-	float:left;
+	padding:5px 5px;
+}
+
+.clearfix{
+	clear:both;
 }
 
 .lowsection{
-	background-image: url('');
-	background-position: cover;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg);
+	background-position: center;
+	background-size:cover;
 	background-repeat: no-repeat;
+	height:600px;
 }
 
-.lowsection h2,p{
+.lowsection .container{
+	top: 200px;
 	text-align: right;
-	margin-right: ;
+	margin-right: 300px;
 }
 
 .lowsection h2{
-	font-family:;
-	font-size:;
-	color:black;
-	padding:;
+	font-size:25px;
+	color:white;
+	padding:5px 5px;
 }
 
 .lowsection p{
-	font-family:;
-	font-size:;
-	color:black;
-	padding:;
+	font-size:15px;
+	color:white;
+	padding:5px 5px;
 }
 
 .footer{
@@ -109,9 +135,9 @@ a:hover{
 }
 
 .footer p{
-	font-family:;
-	font-size:;
+	font-size:15px;
 	color:white;
-	padding:;
-	margin-left: ;
+	padding:10px 5px;
+	text-align: left;
+	margin-left: 400px;
 }
