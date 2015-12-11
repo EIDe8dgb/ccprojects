@@ -42,23 +42,24 @@ body{
 	margin-top:0;
 	background-color:#2a2727;
 	height:250px;
-}
-
-.part2 .container{
-	top:50px;
 	text-align: center;
 }
 
-.part2 h2,p{
-	display:inline-block;
+.part2 .column{
+	float:left;
+	list-style: none;
+	padding:10px;
 }
 
 .part2 h2{
+	font-size: 30px;
 	color:#eeb425;
+	text-transform: uppercase;
 }
 
 .part2 p{
 	color:#fff;
+	font-size: 12px;
 }
 
 .part3{
@@ -71,12 +72,13 @@ body{
 }
 
 .part3 .container{
-	top:100px;
+	top:200px;
 	text-align: center;
 }
 
 .part3 h2{
 	color:#fff;
+	font-size: 50px;
 }
 
 .part4{
@@ -92,10 +94,12 @@ body{
 
 .part4 h2{
 	color:#eeb425;
+	font-size: 30px;
 }
 
 .part4 p{
 	color:#fff;
+	padding-bottom: 20px;
 }
 
 .footer{
@@ -108,12 +112,13 @@ body{
 }
 
 .footer .container{
-	top:100px;
+	top:200px;
 	text-align: center;
 }
 
 .footer h2{
 	color:#fff;
+	font-size: 40px;
 }
 
 .btn{
