@@ -5,14 +5,14 @@ html,body{
 
 h1{
 	font-family: 'Raleway',sans-seriff;
-	font-size: 25px;
-	font-weight: 400;
+	font-size: 100px;
+	font-weight: 200;
 }
 
 p{
 	font-family: 'Raleway',sans-seriff;
-	font-size:14px;
-	font-weight: 400;
+	font-size:30px;
+	font-weight: 100;
 }
 
 .btn{
@@ -36,15 +36,19 @@ p{
 
 .footer h3{
 	font-family: Helvetica, sans-seriff;
-	font-size: 12px;
-	font-weight: 300;
+	font-size: 15px;
+	font-weight: bold;
 }
 
 .footer ul li{
 	font-family: Helvetica, sans-seriff;
-	font-color:#aaaaaa;
-	font-size: 10px;
-	font-weight: 500;
+	color:#aaaaaa;
+	font-size: 15px;
+	font-weight: 900;
+}
+
+.footer ul{
+	list-style-type: none;
 }
 
 .header{
@@ -53,6 +57,7 @@ p{
 	background-size: cover;
 	background-position: center center;
 	text-align: left;
+	height: 600px;
 }
 
 .header .container{
@@ -72,36 +77,63 @@ p{
 .share{
 	background-color: #f8f8ff;
 	text-align: left;
+	border-bottom: 1px solid #ccc;
 }
 
 .share .container{
 	position:relative;
-	top:10px;
+	top:30px;
+	margin-bottom: 60px;
 }
 
 .explore{
 	background-color: #f8f8ff;
 	text-align:left;
+	border-bottom: 1px solid #ccc;
 }
 
 .explore .container{
 	position:relative;
-	top:20px;
+	top:30px;
+	margin-bottom: 60px;
 }
 
 .save{
 	background-color: #f8f8ff;
 	text-align: left;
+	border-bottom: 1px solid #ccc;
 }
 
 .save .container{
 	position:relative;
-	top:10px;
+	top:30px;
+	margin-bottom: 60px;
+}
+
+.store{
+	height: 200px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+.store .container{
+	position:relative;
+	top:50px
+}
+
+.store img{
+	height:60px;
+	width: 180px;
+}
+
+.store p{
+	font-size: 25px;
 }
 
 .footer{
-	background-color: #ddd;
+	background-color: #ececec;
 	text-align: left;
+	height: 175px;
 }
 
 .footer .container{
