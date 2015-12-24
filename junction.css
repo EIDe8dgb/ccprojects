@@ -9,15 +9,21 @@ body{
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .header{
-	height:75px;
 	background-color: rgba(0,0,0,.5);
 }
 
 .header .container{
 	position: relative;
+}
+
+.header ul li img{
+	padding-top: 10px;
+	height:30px;
+	width:30px;
 }
 
 .header li{
@@ -36,45 +42,52 @@ body{
 	transition: all 0.5s;
 }
 
-.jumbotron{
-	height:875px;
-}
-
 .jumbotron .container{
-	position: relative;
-	top:100px;
+	position:relative;
+	top:50px;
 	text-align: center;
 }
 
 .jumbotron h1{
 	font-size: 50px;
-	color:#fff;
 }
 
-.jumbotron .container .row .col-md-4{
-	padding:20px 30px 30px 30px;
+.jumbotron .container .row img{
+	height:125px;
+	width: 125px;
 }
 
 .jumbotron h3{
-	color:#fff;
 	font-size: 20px;
 }
 
 .jumbotron p{
-	color:#fff;
 	font-size: 10px;
 }
 
 .jumbotron .button{
-	font-size: 15px;
-	color:#fff;
-	background-color: #40ec77;
-	height: 10px;
-	width: 40px;
-	border-radius: 10%;
+	margin-top: 30px;
+	text-align: center;
 }
 
-.jumbotron .button:hover{
+.jumbotron .button .container{
+	text-align: center;
+	margin:0 46% 0 auto;
+	font-size: 20px;
+	background-color: #40ec77;
+	border-radius: 10%;
+	width: 90px;
+	height:30px;
+}
+
+.jumbotron a{
+	text-decoration: none;
+	color:#fff;
+	line-height: 25px;
+	letter-spacing: 2px;
+}
+
+.jumbotron .button .container:hover{
 	background-color: rgb(0,0,0);
 	transition: all 0.5s;
 }
