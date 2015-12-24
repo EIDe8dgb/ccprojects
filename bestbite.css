@@ -1,0 +1,157 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+
+p,li,a,.row{
+		font-family: 'Arvo',cursive;
+		font-size: 16px;
+}
+
+.header{
+	height:100px;
+	background-color: #fff5ee;
+}
+
+.header .container{
+	position: relative;
+	text-align:center;
+}
+
+.header .container .row .col-md-6{
+	padding:5px 5px;
+}
+
+.header p{
+	font-size: 35px;
+	text-align: left;
+}
+
+.header li{
+	padding:5px 10px 5px 10px;
+}
+
+.nav-pills li a{
+	background-color: #ffffff;
+	color:red;
+	border:1px solid red;
+}
+
+.nav-pills li a:hover{
+	background-color:red;
+	color:#ffffff;
+	transition: background-color 0.5s;
+}
+
+.jumbotron{
+	height:400px;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0;
+}
+
+.jumbotron .container{
+	position: relative;
+}
+
+.jumbotron .row{
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 400;
+}
+
+.supporting{
+	height:125px;
+	background-color: #2e1915;
+	margin-top:-30px;
+}
+
+.supporting .container{
+	position: relative;
+	text-align: center;
+}
+
+.supporting p{
+	color:#ffffff;
+	font-size: 30px;
+	margin-top:10px;
+}
+
+.lowsection{
+	height:80px;
+	background-color: #fff5ee;
+	border-bottom: solid 1px #ececec;
+}
+
+.lowsection .container{
+	position:relative;
+	top:15px;
+	text-align: center;
+}
+
+.lowsection p{
+	color:#2e1915;
+	font-size: 25px;
+}
+
+.recipes{
+	height:120px;
+	background-color: #fff5ee;
+}
+
+.recipes .container{
+	position: relative;
+	top:30px;
+}
+
+.recipes ul{
+	list-style-type: none;
+
+}
+
+.recipes .container .rows{
+	margin-top:20px;
+}
+
+.recipes .container .rows .col-md-4{
+	padding:10px 10px;
+}
+
+.recipes p,li{
+	text-align: center;
+}
+
+.recipes p{
+	color:#a0201a;
+	padding-top:10px;
+}
+
+.recipes li{
+	color:#000000;
+	padding:0;
+}
+
+.footer{
+	height:175px;
+	background-color: #cacbce;
+}
+
+.footer .container{
+	position: relative;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #a0201a;
+}
+
+.footer p{
+	text-align: center;
+}
+
+.footer a,p{
+	padding-top: 10px;
+}
