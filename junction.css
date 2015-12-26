@@ -1,93 +1,91 @@
-body,html{
-	margin:0;
-	padding: 0;
-	font-family: 'Merriweather',sans-serif;
-}
-
-body{
-	background-image: url(https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.header{
-	background-color: rgba(0,0,0,.5);
-}
-
-.header .container{
-	position: relative;
-}
-
-.header ul li img{
-	padding-top: 10px;
-	height:30px;
-	width:30px;
-}
-
-.header li{
-	display:inline-block;
-}
-
-.header li a{
-	padding:5px 10px;
-	color:#fff;
-	text-decoration: none;
-}
-
-.header li a:hover{
-	color:#40ec77;
-	text-decoration: underline;
-	transition: all 0.5s;
-}
-
-.jumbotron .container{
-	position:relative;
-	top:50px;
-	text-align: center;
-}
-
-.jumbotron h1{
-	font-size: 50px;
-}
-
-.jumbotron .container .row img{
-	height:125px;
-	width: 125px;
-}
-
-.jumbotron h3{
-	font-size: 20px;
-}
-
-.jumbotron p{
-	font-size: 10px;
-}
-
-.jumbotron .button{
-	margin-top: 30px;
-	text-align: center;
-}
-
-.jumbotron .button .container{
-	text-align: center;
-	margin:0 46% 0 auto;
-	font-size: 20px;
-	background-color: #40ec77;
-	border-radius: 10%;
-	width: 90px;
-	height:30px;
-}
-
-.jumbotron a{
-	text-decoration: none;
-	color:#fff;
-	line-height: 25px;
-	letter-spacing: 2px;
-}
-
-.jumbotron .button .container:hover{
-	background-color: rgb(0,0,0);
-	transition: all 0.5s;
-}
+html,
+body {
+margin: 0;
+padding: 0;
+font-family: 'Merriweather', serif;
+        }
+body {
+background: url(https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg) no-repeat center center fixed;
+background-size: cover;
+        }
+.container {
+max-width: 940px;
+        }
+/* Header */
+.header {
+background: rgba(0, 0, 0, .5);
+height: 60px;
+padding: 10px 0;
+        }
+.logo {
+margin: 0 30px 0;
+        }
+.nav {
+display: inline-block;
+margin: 0;
+padding: 8px 0;
+        }
+.nav li {
+color: #fff;
+display: inline;
+font-size: 14px;
+margin-right: 30px;
+padding: 0 0 5px;
+        }
+.nav li:hover {
+border-bottom: 1px solid #00ffbc;
+color: #00ffbc;
+cursor: pointer;
+        }
+/* Jumbotron */
+.jumbotron {
+background-color: transparent;
+text-align: center;
+position: relative;
+top: 30px;
+        }
+.jumbotron h1 {
+color: #fff;
+font-size: 60px;
+text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+        }
+.jumbotron p {
+color: #c9c3e6;
+font-size: 18px;
+        }
+/* Supporting */
+.supporting {
+margin-top: 40px;
+text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+        }
+.supporting .col-md-4 {
+text-align: center;
+color: #fff;
+margin-bottom: 40px;
+        }
+.supporting h2 {
+font-size: 25px;
+        }
+.supporting p {
+font-size: 16px;
+        }
+.download {
+position: relative;
+top: 80px;
+text-align: center;
+        }
+.btn-default {
+background: rgba(0, 255, 188, 0.5);
+border: none;
+border-radius: 8px;
+color: #fff;
+font-size: 18px;
+letter-spacing: 1.3px;
+padding: 10px 60px;
+margin-bottom: 100px;
+        }
+.btn-default:hover {
+background: rgba(0, 0, 0, 0.5);
+border: none;
+color: #fff;
+        }
